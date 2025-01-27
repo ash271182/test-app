@@ -13,7 +13,7 @@ spec:
         app: test-app
     spec:
       containers:
-      - name: chatgpt
+      - name: test-app
         image: docker.io/test-app:latest
         ports:
         - containerPort: 80
